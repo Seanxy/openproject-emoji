@@ -15,5 +15,4 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{app,config,db,doc,lib,vendor}/**/*"] + %w(README.md)
 
-  s.add_dependency 'rails', '~> 3.2'
 end
