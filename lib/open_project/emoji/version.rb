@@ -13,6 +13,6 @@
 
 module OpenProject
   module Emoji
-    VERSION = "5.0.0"
+    VERSION = "6.2.0"
   end
 end
