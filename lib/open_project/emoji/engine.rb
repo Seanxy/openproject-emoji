@@ -20,7 +20,7 @@ module OpenProject::Emoji
     engine_name :openproject_emoji
 
     include OpenProject::Plugins::ActsAsOpEngine
-
+    config.autoload_paths += %W(#{config.root}/lib)
     register 'openproject-emoji',
              :author_url => 'http://tessenow.org',
              :requires_openproject => '>= 4.0.0',
