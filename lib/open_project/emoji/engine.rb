@@ -17,7 +17,7 @@ require 'open_project/plugins'
 
 module OpenProject::Emoji
   class Engine < ::Rails::Engine
-    engine_name :openproject-emoji
+    engine_name :openproject_emoji
 
     include OpenProject::Plugins::ActsAsOpEngine
 
